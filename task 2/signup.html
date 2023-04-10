@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="signup.css">
+    <title>SBS Student Activity</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">SBS</h2>
+        <nav class="navigation">         
+            <a href="task2.html" class="nav">login</a>
+        </nav>
+        </header>
+        <div class="container">
+            <div class="card">
+                <a class="singup">Sign Up</a>
+                <div class="inputBox1">
+                    <input type="text" required="required">
+                    <span class="user">Username</span>
+                </div>
+    
+                <div class="inputBox">
+                    <input type="text" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="inputBox1">
+                    <input type="text" required="required">
+                    <span class="user">Phone</span>
+                </div>
+                <div class="inputBox">
+                    <input type="password" required="required">
+                    <span>Password</span>
+                </div>
+                <div class="inputBox">
+                    <input type="password" required="required">
+                    <span>Confirm password</span>
+                </div>
+                <div>
+                    <label for="browser"><strong class="male">Choose your city:</strong></label><br>
+                    <input list="browsers" name="browser" id="browser">
+                    <datalist id="browsers">
+                      <option value="cairo">
+                      <option value="giza">
+                      <option value="alex">
+                      <option value="sohag">
+                      <option value="sina">
+                </div>
+                <div>
+                    <label for="browser"><strong class="male">Choose your region:</strong></label><br>
+                    <input list="browsers_2" name="browser" id="browser_1">
+                    <datalist id="browsers_2">
+                      <option value="doki">
+                      <option value="el marg ">
+                      <option value="ain shams">
+                      <option value="el nozha">
+                      <option value="masr el gdeda">
+                </div>
+                <div>
+                    <label class="radio-button">
+                        <input value="option1" name="example-radio" type="radio">
+                        <span class="radio"></span>
+                        <strong class="male">Male</strong>
+                      </label>
+                      
+                      <label class="radio-button">
+                        <input value="option2" name="example-radio" type="radio">
+                        <span class="radio"></span>
+                        <strong class="male">Female</strong>
+                      </label>                      
+                </div>
+                <button class="enter">Enter</button>
+                <form action="signup.html">
+                    <input class="enter" type="submit" value="reset" />
+                </form>
+            </div>
+        </div>
+</body>
+</html>
